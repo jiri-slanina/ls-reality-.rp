@@ -45,7 +45,7 @@ header img{
                     /* section_1*/
 .section_1{
     width: 100%;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .section_1 ul{
@@ -55,29 +55,28 @@ header img{
     list-style-type: none;
     background-image: url(img/background.png);
     background-size: cover;
+    line-height: 80px;
 }
 
 .section_1 ul li{
     transition: background 0.5s;
     border-radius: 10px;
-    padding: 5px 10px;
-    border-bottom: 2px solid #ff7900;
-    border-top: 2px solid #ff7900;
-}
-
-.section_1 ul li:hover{
-    background-color: #ff770083;
-    border-bottom: 2px solid #fff;
-    border-top: 2px solid #fff;
 }
 
 .section_1 ul li a{
     text-decoration: none;
     font-size: clamp(20px, 2vw, 32px);
     color: #fff;
-    line-height: 2.5vw;
     transition: background 0.5s, color 0.5s;
     border-radius: 20px;
+    border-bottom: 2px solid #ff7900;
+    border-top: 2px solid #ff7900;
+    padding: 5px 8px;
+}
+
+.section_1 ul li a:hover{
+    background-color: #ff7900;
+    border: 2px solid #fff;
 }
 
 @media(max-width: 400px){
@@ -151,6 +150,7 @@ header img{
 
 .police{
     margin: 2vw auto;
+    background-color: #743105e8;
 }
 
 .police button{
@@ -161,6 +161,12 @@ header img{
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    transition: background 0.5s;
+}
+
+.police button:hover{
+    background-color: #6c757d;
+    color: #fff;
 }
 
 .odsazeni_1{
@@ -180,4 +186,58 @@ header img{
         flex-wrap: wrap;
         text-align: center;
     }
+}
+
+            /* police end */
+
+            /* IMS start */
+
+.IMS{
+    background-color: #743105e8;
+}
+
+.odsazeni_2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.odsazeni_2 ol p{
+    margin: 1.2vw 0;
+    font-size: clamp(14px, 1.5vw, 20px);
+    color: #fff;
+}
+
+@media(max-width: 650px) {
+    .odsazeni_2{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+.IMS button{
+    padding: 10px 12px;
+    border-radius: 222px;
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.IMS button:hover{
+    background-color: #6c757d;
+    color: #fff;
+}
+
+            /* IMS end */
+
+
+
+
+
+.fire{
+    background-color: #743105e8;
 }
