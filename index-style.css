@@ -36,7 +36,6 @@ body{
                     /* HEADER */
 /********************************************************/
 .header{
-    width: 50%;
     text-align: center;
     margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0,0,0,0.2)), url(img/background.png);
@@ -61,7 +60,7 @@ header img{
 }
 
 .connect{
-    margin: 80px auto;
+    margin: 0 auto;
 }
 
 .connect a{
