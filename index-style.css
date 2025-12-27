@@ -41,6 +41,7 @@ header img{
 
                         /* MAIN */
 /********************************************************/
+                    /* section_1*/
 .section_1{
     width: 100%;
     margin: 0 auto;
@@ -74,10 +75,26 @@ header img{
     border-radius: 20px;
 }
 
-
-
 @media(max-width: 400px){
     .hide{
         display: none;
     }
+}
+                /*section_1 end*/
+
+                /*section_2 start*/
+.section_2{
+    width: 80%;
+    text-align: center;
+    margin: 2vw auto;
+}
+
+.section_2 h3{
+    font-size: clamp(16px, 1.5vw, 20px);
+}
+
+.high-text{
+    font-size: clamp(20px, 1.8vw, 24px);
+    word-spacing: 5px;
+    color: #ff7900;
 }
