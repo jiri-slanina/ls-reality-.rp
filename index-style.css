@@ -328,16 +328,16 @@ header img{
 .dots {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 15px;
     margin-bottom: 4vw;
 
 }
 
 .dot {
-    width: 14px;
-    height: 14px;
+    width: 30px;
+    height: 15px;
     background: #bbb;
-    border-radius: 50%;
+    border-radius: 40%;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
 }
