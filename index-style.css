@@ -193,6 +193,7 @@ header img{
             /* IMS start */
 
 .IMS{
+    margin: 2vw auto;
     background-color: #743105e8;
 }
 
@@ -236,8 +237,12 @@ header img{
 
 
 
-
+            /* fire start */
 
 .fire{
     background-color: #743105e8;
 }
+
+
+
+            /* fire end */
