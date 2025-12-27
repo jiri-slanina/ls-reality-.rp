@@ -329,7 +329,8 @@ header img{
     display: flex;
     justify-content: center;
     gap: 12px;
-    margin: 20px 0;
+    margin-bottom: 4vw;
+
 }
 
 .dot {
