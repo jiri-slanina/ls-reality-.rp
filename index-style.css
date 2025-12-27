@@ -192,34 +192,13 @@ header img{
 }
 
 
-.section_3 h4{
-    font-size: clamp(22px, 2.5vw, 38px);
-    text-align: center;
-    color: #0c97e7;
-    transform: translateX(350px);
-}
 
 .police{
     margin: 2vw auto;
     background-color: #7431059d;
 }
 
-.police button{
-    padding: 10px 12px;
-    border-radius: 222px;
-    background-color: #fff;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    cursor: pointer;
-    transform: translateX(350px);
-    transition: background 0.5s;
-}
 
-.police button:hover{
-    background-color: #6c757d;
-    color: #fff;
-}
 
 .odsazeni_1{
     display: flex;
@@ -269,22 +248,6 @@ header img{
 }
 
 
-.IMS button{
-    padding: 10px 12px;
-    border-radius: 222px;
-    background-color: #fff;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    transform: translateX(350px);
-    cursor: pointer;
-    transition: background 0.5s;
-}
-
-.IMS button:hover{
-    background-color: #6c757d;
-    color: #fff;
-}
 
             /* IMS end */
 
@@ -318,22 +281,6 @@ header img{
 }
 
 
-.fire button{
-    padding: 10px 12px;
-    border-radius: 222px;
-    background-color: #fff;
-    text-align: center;
-    display: block;
-    transform: translateX(350px);
-    margin: 0 auto;
-    cursor: pointer;
-    transition: background 0.5s;
-}
-
-.fire button:hover{
-    background-color: #6c757d;
-    color: #fff;
-}
 
 
 
