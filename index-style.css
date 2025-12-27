@@ -6,7 +6,31 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #af4b08;
+}
+
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* obsah nad videem */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 40vh;
 }
 
                     /* HEADER */
@@ -15,10 +39,11 @@ body{
     width: 50%;
     text-align: center;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(img/background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0,0,0,0.2)), url(img/background.png);
     height: auto;
     width: 100%;
     background-size: cover;
+    background: transparent;
 }
 
 .header h1{
@@ -37,7 +62,7 @@ header img{
 }
 
 .connect{
-    margin: 10px auto;
+    margin: 80px auto;
 }
 
 .connect a{
@@ -64,7 +89,7 @@ header img{
                     /* section_1*/
 .section_1{
     width: 100%;
-    margin: 40px auto;
+    margin: 100px auto;
 }
 
 .section_1 ul{
@@ -118,15 +143,16 @@ header img{
     padding: 10px 15px;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/background.png);
+    background-size: cover;
 }
 
 .section_2{
     text-align: center;
-    margin: 2vw auto;
+    margin: 100px auto;
 }
 
 .section_2 h3{
-    font-size: clamp(16px, 1.5vw, 20px);
+    font-size: clamp(18px, 1.5vw, 26px);
     color: #fff;
     line-height: 40px;
 }
@@ -163,13 +189,15 @@ header img{
 
 
 .section_3 h4{
+    font-size: clamp(22px, 2.5vw, 38px);
     text-align: center;
-    font-size: 30px;
+    color: #0c97e7;
+    transform: translateX(350px);
 }
 
 .police{
     margin: 2vw auto;
-    background-color: #743105e8;
+    background-color: #7431059d;
 }
 
 .police button{
@@ -180,6 +208,7 @@ header img{
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    transform: translateX(350px);
     transition: background 0.5s;
 }
 
@@ -213,7 +242,7 @@ header img{
 
 .IMS{
     margin: 2vw auto;
-    background-color: #743105e8;
+    background-color: #7431059d;
 }
 
 .odsazeni_2{
@@ -243,6 +272,7 @@ header img{
     text-align: center;
     display: block;
     margin: 0 auto;
+    transform: translateX(350px);
     cursor: pointer;
     transition: background 0.5s;
 }
@@ -258,13 +288,10 @@ header img{
 
             /* fire start */
 
-.fire{
-    background-color: #743105e8;
-}
 
 .fire{
     margin: 2vw auto;
-    background-color: #743105e8;
+    background-color: #7431059d;
 }
 
 .odsazeni_3{
@@ -293,6 +320,7 @@ header img{
     background-color: #fff;
     text-align: center;
     display: block;
+    transform: translateX(350px);
     margin: 0 auto;
     cursor: pointer;
     transition: background 0.5s;
@@ -347,5 +375,5 @@ header img{
 }
 
 .dot.active {
-    background: #ff7900;
+    background: #ff7700;
 }
