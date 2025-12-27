@@ -65,16 +65,21 @@ header img{
 }
 
 .connect a{
-    font-size: clamp(20px, 2vw, 28px);
+    font-size: clamp(22px, 2vw, 232px);
     text-decoration: none;
     color: #fff;
-    background-color: #ff7900;
+    background-image: url(img/background.png);
+    background-size: cover;
     padding: 5px 10px;
+    position: relative;
+    top: 70px;
     border-radius: 999px;
+    border: 2px solid #fff;
 }
 
 .connect a:hover{
-    background-color: #af4b08;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/background.png);
+    color: #ffffff9a;
 }
 
 
