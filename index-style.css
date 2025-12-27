@@ -6,7 +6,7 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #343a40;
+    background-color: #af4b08;
 }
 
                     /* HEADER */
@@ -45,11 +45,10 @@ header img{
                     /* section_1*/
 .section_1{
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .section_1 ul{
-    margin-top: 20px;
     display: flex;
     gap: 20px;
     justify-content: space-around;
@@ -97,14 +96,13 @@ header img{
                 
                 /*section_2 start*/
 .background_section_2{
+    margin-top: 20px;
+    padding: 10px 15px;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/background.png);
-    margin-top: 20px;
-    padding: 15px;
 }
 
 .section_2{
-    width: 80%;
     text-align: center;
     margin: 2vw auto;
 }
@@ -120,4 +118,66 @@ header img{
     word-spacing: 5px;
     color: #ff7900;
     text-decoration: underline;
+}
+                /*section_2 end*/
+
+
+
+
+
+
+                /*section_3   start*/
+.section_3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_3 img{
+    width: 30%;
+}
+
+@media(max-width: 650px){
+    .section_3 img{
+        width: 100%;
+    }
+}
+
+
+.section_3 h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.police{
+    margin: 2vw auto;
+}
+
+.police button{
+    padding: 10px 12px;
+    border-radius: 222px;
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.odsazeni_1{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.odsazeni_1 ol p{
+    margin: 1.2vw 0;
+    font-size: clamp(14px, 1.5vw, 20px);
+    color: #fff;
+}
+
+@media(max-width: 650px) {
+    .odsazeni_1{
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
