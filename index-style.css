@@ -36,6 +36,25 @@ header img{
     border: 2px solid #fff;
 }
 
+.connect{
+    margin: 10px auto;
+}
+
+.connect a{
+    font-size: clamp(20px, 2vw, 28px);
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7900;
+    padding: 5px 10px;
+    border-radius: 999px;
+}
+
+.connect a:hover{
+    background-color: #af4b08;
+}
+
+
+
                     /* HEADER END */
 /********************************************************/
 
@@ -133,7 +152,7 @@ header img{
 }
 
 .section_3 img{
-    width: 30%;
+    width: 40%;
 }
 
 @media(max-width: 650px){
@@ -243,6 +262,89 @@ header img{
     background-color: #743105e8;
 }
 
+.IMS{
+    margin: 2vw auto;
+    background-color: #743105e8;
+}
+
+.odsazeni_3{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.odsazeni_3 ol p{
+    margin: 1.2vw 0;
+    font-size: clamp(14px, 1.5vw, 20px);
+    color: #fff;
+}
+
+@media(max-width: 650px) {
+    .odsazeni_3{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+.fire button{
+    padding: 10px 12px;
+    border-radius: 222px;
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.fire button:hover{
+    background-color: #6c757d;
+    color: #fff;
+}
+
 
 
             /* fire end */
+            /* ===== SLIDER ===== */
+
+.slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* tečky */
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    background: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.dot:hover {
+    transform: scale(1.2);
+}
+
+.dot.active {
+    background: #ff7900;
+}
