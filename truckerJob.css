@@ -81,7 +81,13 @@ header img{
     color: #ffffff9a;
 }
 
-
+.btn_back{
+    display: block;
+    width: 80px;
+    border-radius: 999px;
+    margin: 20px auto;
+    text-align: center;
+}
 
                     /* HEADER END */
 /********************************************************/
