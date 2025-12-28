@@ -87,6 +87,7 @@ header img{
 /********************************************************/
 
 
+
                         /* MAIN */
 /********************************************************/
                     /* section_1*/
@@ -326,4 +327,52 @@ header img{
 
 .dot.active {
     background: #ff7700;
+}
+
+/* */
+
+
+
+
+
+
+
+
+.section_4{
+    width: 100%;
+    margin: 60px auto;
+    background-color: #7431059d;
+    padding: 20px;
+}
+
+.section_4 img{
+    width: 60%;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+    border-radius: 999px;
+    border: 2px solid #fff;
+}
+
+.section_4 a{
+    width: 40vw;
+    font-size: clamp(25px, 2.5vw, 38px);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    background-color: #ff7900;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+.section_4 a:hover{
+    background-color: #bbb;
+    color: #ff7700;
+
 }
