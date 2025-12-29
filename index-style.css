@@ -279,12 +279,13 @@ header img{
         text-align: center;
     }
 }
+                /* fire end */
 
 
 
 
 
-            /* fire end */
+
             /* ===== SLIDER ===== */
 
 .slider-wrapper {
@@ -336,17 +337,20 @@ header img{
 
 
 
-
+                /* SECTION_4 start */
 
 .section_4{
     width: 100%;
     margin: 60px auto;
-    background-color: #7431059d;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/background.png);
+    background-size: cover;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section_4 img{
-    width: 60%;
+    width: 750px;
     margin: 30px auto;
     display: block;
     text-align: center;
@@ -354,8 +358,14 @@ header img{
     border: 2px solid #fff;
 }
 
+@media(max-width: 850px){
+    .section_4 img{
+        width: 100%;
+    }
+}
+
 .section_4 a{
-    width: 40vw;
+    width: 30%;
     font-size: clamp(25px, 2.5vw, 38px);
     text-decoration: none;
     text-align: center;
@@ -365,14 +375,42 @@ header img{
     letter-spacing: 5px;
     word-spacing: 5px;
     border: 2px solid #fff;
-    margin: 0 auto;
+    margin: 2vw auto;
     background-color: #ff7900;
     border-radius: 20px;
     transition: background 0.5s;
 }
+
+@media(max-width: 650px){
+    .section_4 a{
+        width: 200px;
+        margin-top: 30px;
+    }
+}
+
 
 .section_4 a:hover{
     background-color: #bbb;
     color: #ff7700;
 
 }
+
+.info_truckerJob{
+    width: 100%;
+}
+
+.info_truckerJob h4{
+    font-size: clamp(24px, 2.5vw, 38px);
+    text-align: center;
+    margin: 50px auto;
+    color: #fff;
+}
+
+
+.info_truckerJob p{
+    font-size: clamp(14px, 1.8vw, 24px);
+    color: #fff;
+    text-align: center;
+    margin: 10px 30px;
+}
+/*  */
