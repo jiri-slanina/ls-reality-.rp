@@ -414,3 +414,41 @@ header img{
     margin: 10px 30px;
 }
 /*  */
+
+
+
+.video_LS{
+    margin: 100px auto;
+    display: block;
+    text-align: center;
+}
+
+
+.video_LS iframe{
+    width: 800px;
+    height: 450px;
+    border-radius: 65px;
+    border: 2px solid #fff;
+}
+
+@media(max-width: 800px) {
+    .video_LS iframe{
+        width: 550px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 500px) {
+    .video_LS iframe{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 350px) {
+    .video_LS iframe{
+        width: 250px;
+        height: 180px;
+        border-radius: 20px;
+    }
+}
